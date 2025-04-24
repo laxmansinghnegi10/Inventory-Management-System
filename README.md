@@ -57,7 +57,7 @@ npm run build && npm start
 
 
 # 🌐 Live Demo
-Experience the deployed version: https://inventory-management-system-jvyssk70r.vercel.app/
+Experience the deployed version: https://inventory-management-system-ey1hbysg3.vercel.app/
 
 
 # 📦 Dependency Management
