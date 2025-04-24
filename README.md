@@ -11,6 +11,7 @@ A responsive inventory table component built for Baaz Bikes' technical screening
 
 Next.js, Tailwind CSS, React.js , TypeScript
 
+
 ![Screenshot 2025-04-24 060218](https://github.com/user-attachments/assets/a7c5322e-8e3c-4e75-94c0-240c79c6ebac)
 ![Screenshot 2025-04-24 060157](https://github.com/user-attachments/assets/67d6abdf-6819-4ef3-9de7-7f64dde092ee)
 ![Screenshot 2025-04-24 060111](https://github.com/user-attachments/assets/4e21c015-7fe3-41b5-9b3e-91bb65f995c2)
