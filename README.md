@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 📌 Project Overview
+A responsive inventory table component built for Baaz Bikes' technical screening, featuring:
 
-## Getting Started
+- Reusable, configurable table component
+- Real API integration with error handling
+- Complete sorting/filtering/pagination
+- Mobile-first responsive design
 
-First, run the development server:
+![Screenshot 2025-04-24 060218](https://github.com/user-attachments/assets/a7c5322e-8e3c-4e75-94c0-240c79c6ebac)
+![Screenshot 2025-04-24 060157](https://github.com/user-attachments/assets/67d6abdf-6819-4ef3-9de7-7f64dde092ee)
+![Screenshot 2025-04-24 060111](https://github.com/user-attachments/assets/4e21c015-7fe3-41b5-9b3e-91bb65f995c2)
+![Screenshot 2025-04-24 060040](https://github.com/user-attachments/assets/2528039b-853b-45d1-9f6f-792d255e4f15)
+![Screenshot 2025-04-24 060017](https://github.com/user-attachments/assets/229a4d61-1b3f-44d8-9f14-02afa2080192)
 
-```bash
+
+## 🛠️ Features Implemented
+
+| Feature | Implementation Details |
+|---------|------------------------|
+| **Reusable Table** | Dynamic column configuration via props |
+| **Column Sorting** | Click headers for ASC/DESC with visual indicators |
+| **Instant Filtering** | Per-column text search (ID, Name, Category) |
+| **Pagination** | Client-side page controls (20 items/page) |
+| **Responsive UI** | Optimized for mobile (320px+) and desktop |
+
+## 🚀 Quick Setup
+
+### Prerequisites
+- Node.js v18+
+- npm v9+
+
+### Installation
+
+1- git clone https://github.com/laxmansinghnegi10/baaz-bikes-inventory.git
+
+2-cd baaz-bikes-inventory
+
+3-npm install
+
+
+# Running Locally
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open: http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Building for Production
 
-## Learn More
+npm run build && npm start
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🌐 Live Demo
+Experience the deployed version: https://inventory-management-system-jvyssk70r.vercel.app/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+# ⚠️ Known Limitations
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1-Large datasets (>10,000 items) may impact client-side performance.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2-Filters reset when changing pages (by design).
+
+3-No server-side pagination implemented.
+
+
+# 🤝 Contributing
+
+Pull requests welcome! For major changes, please open an issue first.
+
+
+
+
+
+
+
+
+
+
