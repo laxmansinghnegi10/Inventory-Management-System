@@ -1,6 +1,7 @@
 ## 📌 Project Overview
 A responsive inventory table component built for Baaz Bikes' technical screening, featuring:
 
+- Responsive → Desktop table → Tablet scroll → Mobile Phones
 - Reusable, configurable table component
 - Real API integration with error handling
 - Complete sorting/filtering/pagination
