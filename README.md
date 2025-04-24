@@ -50,8 +50,34 @@ Open: http://localhost:3000
 npm run build && npm start
 
 
-🌐 Live Demo
+# 🌐 Live Demo
 Experience the deployed version: https://inventory-management-system-jvyssk70r.vercel.app/
+
+
+# 📦 Dependency Management
+Important Note About node_modules
+
+This repository intentionally excludes the node_modules folder because:
+
+1-It contains 10,000+ files (unnecessary for version control)
+
+2-All dependencies can be reinstalled using package.json
+
+3-Reduces repository size by 90%+
+
+# How to Restore Dependencies
+
+After cloning the repository, run:
+
+npm install
+
+# -> This will:
+
+1-Install all required packages (listed in package.json)
+
+2-Create a fresh node_modules folder
+
+3-Generate a package-lock.json for consistent versions
 
 
 # ⚠️ Known Limitations
